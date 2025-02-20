@@ -5,3 +5,9 @@ Content-Type: application/json
   "name": "Diego Fernandes",
   "email": "diego@reocketseat.com"
 }
+
+
+###
+
+
+GET http://localhost:3333/invites/diego123
