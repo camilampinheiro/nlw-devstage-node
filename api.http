@@ -2,12 +2,27 @@ POST http://localhost:3333/subscriptions
 Content-Type: application/json
 
 {
-  "name": "Diego Fernandes",
-  "email": "diego@reocketseat.com"
+  "name": "Usuario Indicado 3",
+  "email": "indicado3@gmail.com",
+  "referrer": "536e05e7-24a5-41c2-9ab6-918e093b33e5"
 }
-
 
 ###
 
+GET http://localhost:3333/invites/4e794884-412d-4ef9-a39b-0dfdeeae9127
 
-GET http://localhost:3333/invites/diego123
+###
+
+GET http://localhost:3333/subscribers/4e794884-412d-4ef9-a39b-0dfdeeae9127/ranking/clicks
+
+###
+
+GET http://localhost:3333/subscribers/4e794884-412d-4ef9-a39b-0dfdeeae9127/ranking/count
+
+###
+
+GET http://localhost:3333/subscribers/4e794884-412d-4ef9-a39b-0dfdeeae9127/ranking/position
+
+###
+
+GET http://localhost:3333/ranking
